@@ -6,8 +6,7 @@ def gen_pairs(arr)
   
   counter = 0
   while counter < randomized.length
-    student1
-    student2
+  
     if counter +2 < randomized.length
       puts "#{student1} and #{student2}"
     else
