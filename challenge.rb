@@ -10,9 +10,11 @@ name.each do |name|
 end
 
 #assign_rooms
-arr = (1..7).to_a
-counter = 0
-name.length.times do
-      puts "Hello,#{name}! You'll be assigned to room #{arr}!"
-    counter = counter + 1
+def assign_rooms(name, num)
+  puts "Hello,#{name}! You'll be assigned to room #{num}!"
+end
+num = (1..7).to_a
+
+name.each do |name|
+      puts assign_rooms(name)
 end
