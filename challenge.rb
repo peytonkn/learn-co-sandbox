@@ -11,12 +11,11 @@ end
 
 #assign_rooms
 arr = (1..7).to_a
-def gen_pairs(arr)
+def assign_rooms(arr)
   randomized = arr.shuffle
   
   counter = 0
   while counter < randomized.length
-    if counter < randomized.length
       puts "#{name} and #{arr}"
     counter = counter + 1
     
