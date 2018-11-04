@@ -12,8 +12,6 @@ end
 #assign_rooms
 arr = (1..7).to_a
 def assign_rooms(arr)
-  randomized = arr.shuffle
-  
   counter = 0
   name.length.times do
       puts "Hello,#{name}! You'll be assigned to room #{arr}!"
