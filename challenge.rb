@@ -15,6 +15,6 @@ def assign_rooms(name, num)
 end
 num = (1..7).to_a
 
-name.each do |name|
-      puts assign_rooms(name)
+name.each do |name, num|
+      puts assign_rooms(name, num)
 end
