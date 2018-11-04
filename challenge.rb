@@ -15,5 +15,4 @@ counter = 0
 name.length.times do
       puts "Hello,#{name}! You'll be assigned to room #{arr}!"
     counter = counter + 1
-  end
 end
