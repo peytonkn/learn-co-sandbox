@@ -24,8 +24,4 @@ def gen_pairs(arr)
     
   end
 end
-
-
-
-
 #printer
