@@ -12,7 +12,7 @@ end
 
 #assign_rooms
 num = ["1","2","3","4","5","6","7"]
-def assign_rooms(name, num)
+def assign_rooms(num, name)
   puts "Hello,#{name}! You'll be assigned to room #{num}!"
 end
 name.each do |name, num|
