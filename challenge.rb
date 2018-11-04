@@ -10,6 +10,6 @@ name.each do |name|
 end
 
 #assign_rooms
-arr
+arr = (1..7).to_a
 
 #printer
