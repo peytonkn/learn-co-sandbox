@@ -18,8 +18,6 @@ def gen_pairs(arr)
   while counter < randomized.length
     if counter < randomized.length
       puts "#{name} and #{arr}"
-    else
-      puts "... and also #"
     counter = counter + 1
     
   end
