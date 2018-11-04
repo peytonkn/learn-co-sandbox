@@ -16,5 +16,5 @@ def assign_rooms(name, num)
   puts "Hello,#{name}! You'll be assigned to room #{num}!"
 end
 name.each do |num, name|
-  puts assign_rooms(name, num)
+  puts assign_rooms(num, name)
 end
