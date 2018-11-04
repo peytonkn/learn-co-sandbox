@@ -16,8 +16,7 @@ def assign_rooms(arr)
   
   counter = 0
   while name < randomized.length
-      puts "Hello,#{name}! You'll be assigned  and #{arr}"
+      puts "Hello,#{name}! You'll be assigned to room #{arr}!"
     counter = counter + 1
-    
   end
 end
