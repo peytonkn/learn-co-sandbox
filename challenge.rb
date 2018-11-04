@@ -15,7 +15,7 @@ def assign_rooms(arr)
   randomized = arr.shuffle
   
   counter = 0
-  while counter < randomized.length
+  while name < randomized.length
       puts "#{name} and #{arr}"
     counter = counter + 1
     
