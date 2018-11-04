@@ -13,7 +13,7 @@ end
 def assign_rooms(name, num)
   puts "Hello,#{name}! You'll be assigned to room #{num}!"
 end
-num = (1..7).to_a
+num = [1,2,3,4,5,6,7]
 
 name.each do |name, num|
       puts assign_rooms(name, num)
